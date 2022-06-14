@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AppConstants } from './common.constants';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'socket-io-client';
+  title = 'Socket.io client (' + AppConstants.AppProducion + ')';
+  version =AppConstants.AppVersion;
+  constructor(){
+
+  }
 }
