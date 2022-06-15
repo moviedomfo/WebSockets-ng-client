@@ -101,6 +101,5 @@
         }
       }
     }
-  },
-  "defaultProject": "socket-io-client"
+  }
 }
